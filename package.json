@@ -1,0 +1,42 @@
+{
+  "name": "@dennisbochen/js-scripts",
+  "version": "0.0.0",
+  "description": "CLI for common scripts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": "^12.16.1"
+  },
+  "bin": {
+    "js-scripts": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "js-scripts"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Dennis Bochen",
+      "email": "hello@dennisbochen.dev",
+      "url": "https://dennisbochen.me/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dennisbochen/js-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dennisbochen/js-scripts/issues"
+  },
+  "homepage": "https://github.com/dennisbochen/js-scripts",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "typescript": "^3.8.3"
+  }
+}
