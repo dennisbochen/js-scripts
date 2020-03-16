@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "js-scripts"
+    "release": "np"
   },
   "keywords": [],
   "contributors": [
@@ -37,6 +37,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
+    "np": "^6.2.0",
     "typescript": "^3.8.3"
   }
 }
