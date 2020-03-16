@@ -1,6 +1,6 @@
 {
   "name": "@dennisbochen/js-scripts",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "CLI for common scripts",
   "publishConfig": {
     "access": "restricted",
